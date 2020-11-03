@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>VINAUDIO - Votre oenologue !</title>
+
     <!---------------------Icones--------------------->
     <script src="https://kit.fontawesome.com/886f7975af.js" crossorigin="anonymous"></script>
 
@@ -16,25 +17,26 @@
     <link rel="stylesheet" href="./ressources/CSS/style.css">
     
 </head>
-
 <body>
-    <header>
+
+    <!--BARRE DE NAVIGATION
+    ===============================================-->
+    <header id="vinaudio">
         <nav class="navbar navbar-expand-md bg-light navbar-light fixed-top">
             <div class="container">
                 <button class="navbar-toggler"
                         type="button"
                         data-toggle="collapse"
                         data-target="#monMenu"
-                        aria-controles="monMenu"
+                        aria-controls="monMenu"
                         aria-label="Menu pour mobile">                
                 <span class="navbar-toggler-icon"></span>
                 </button>
-                <a href="/" class="navbar-brand">VINAUDIO</a>
+                <a href="#vinaudio" class="navbar-brand">VINAUDIO</a>
                 <div class="collapse navbar-collapse" id="monMenu">
                     <div class="navbar-nav ml-auto">
                         <a href="#quiSommesNous" class="nav-item nav-link">Qui sommes-nous</a>
                         <a href="#famillesVins" class="nav-item nav-link">Famille des vins</a>
-                        <a href="#galeriesPhotos" class="nav-item nav-link">Galeries photos</a>
                         <a href="#nosPacks" class="nav-item nav-link">Nos packs</a>
                         <a href="#leursExperiences" class="nav-item nav-link">Leurs expériences</a>
                         <a href="#contact" class="nav-item nav-link">Contact</a>
@@ -46,8 +48,8 @@
             <div class="row">
                 <div class="col-md-12 home-title">
                     <h1>VINAUDIO</h1>
-                    <p>L’histoire de la vigne et du vin est si ancienne qu’elle se confond avec l'histoire de l’humanité.</p>
-                <a href="#nosPack" class="btn btn-full">Nos produits</a>
+                    <p><strong>L’histoire de la vigne et du vin est si ancienne qu’elle se confond avec l'histoire de l’humanité.</strong></p>
+                <a href="#nosPacks" class="btn btn-full">Nos packs</a>
                 <a href="#contact" class="btn btn-ghost" >Contactez nous</a>
                 </div>
             </div>
@@ -111,14 +113,14 @@
         <div class="Container">
             <div class="row">
                 <div class="col-md-12">
-                    <h2>Famille des vins</h2>
+                    <h2>Nos Familles de vins</h2>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-4">
                     <div class="famille-details">
                         <img src="./ressources/Images/vinrouge.jpg" alt="rouge">
-                        <h4>Vin rouge</h4>
+                        <h4><a href="./vinsrouges.html">Nos Vins rouges</a></h4>
                         <p>L’Europe est un continent sur lequel pratiquement chaque pays a sa propre production de vin, que vous soyez sur les pentes de l’Etna en Italie, en France, en Suisse, en Allemagne, en Autriche, en Belgique, en Espagne, au Portugal, en Hongrie, en Moldavie, en Bulgarie et même dans des pays de faible surface comme le Luxembourg.
                         Certains secteurs géographiques favorisent le blanc, d’autres le rosé ou encore le rouge. La fabrication de vin rouge se fait de nos jours sur tous les continents.</p>
                     </div>
@@ -126,7 +128,7 @@
                 <div class="col-md-4">
                     <div class="famille-details">
                         <img src="./ressources/Images/vinblanc.jpg" alt="blanc">
-                        <h4>Vin blanc</h4>
+                        <h4><a href="./vinsblancs.html">Nos Vins blancs</a></h4>
                         <p>L’Europe est un continent sur lequel pratiquement chaque pays a sa propre production de vin, que vous soyez sur les pentes de l’Etna en Italie, en France, en Suisse, en Allemagne, en Autriche, en Belgique, en Espagne, au Portugal, en Hongrie, en Moldavie, en Bulgarie et même dans des pays de faible surface comme le Luxembourg.
                         Certains secteurs géographiques favorisent le blanc, d’autres le rosé ou encore le rouge. La fabrication de vin rouge se fait de nos jours sur tous les continents.</p>
                     </div>
@@ -134,60 +136,9 @@
                 <div class="col-md-4">
                     <div class="famille-details">
                         <img src="./ressources/Images/champagne.jpg" alt="champagne">
-                        <h4>Vin rosé</h4>
+                        <h4><a href="./champagne.html">Nos champagnes</a></h4>
                         <p>L’Europe est un continent sur lequel pratiquement chaque pays a sa propre production de vin, que vous soyez sur les pentes de l’Etna en Italie, en France, en Suisse, en Allemagne, en Autriche, en Belgique, en Espagne, au Portugal, en Hongrie, en Moldavie, en Bulgarie et même dans des pays de faible surface comme le Luxembourg.
                         Certains secteurs géographiques favorisent le blanc, d’autres le rosé ou encore le rouge. La fabrication de vin rouge se fait de nos jours sur tous les continents.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--GALERIES PHOTOS
-    ===============================================-->
-
-    <section id="galeriesPhotos">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h2>Galeries Photos</h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="galeries-img" style="background-image: url(./ressources/Images/chateau.jpg);">
-                        <div class="galeries-titre">
-                            <h4>Le Château</h4>
-                        </div>                        
-                    </div>
-                </div>
-                <div class="col-md-8">
-                    <div class="galeries-img" style="background-image: url(./ressources/Images/cavebouteille.jpg);">
-                        <div class="galeries-titre">
-                            <h4>La Cave</h4>
-                        </div>                        
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-5">
-                    <div class="galeries-img" style="background-image: url(./ressources/Images/degustation2.jpg);">
-                        <div class="galeries-titre">
-                            <h4>Nos dégustation</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="galeries-img" style="background-image: url(./ressources/Images/salonchateau.jpg);">
-                        <div class="galeries-titre">
-                            <h4>Le Salon</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="galeries-img" style="background-image: url(./ressources/Images/vigne2.jpg);">
-                        <div class="galeries-titre">
-                            <h4>Nos Vignes</h4>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -363,18 +314,18 @@
                             </div>
                         </div>
                     </div>
-                <form action="">
+                <form>
                     <!------------Nom et Email------------>
                     <div class="row">
                         <div class="col-md-6">
                             <div class="contact-form">
-                                <label for="">Nom :</label>
+                                <label>Nom :</label>
                                 <input type="text" id="name">
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="contact-form">
-                                <label for="">Email :</label>
+                                <label>Email :</label>
                                 <input type="email" id="email" placeholder="Ajoutez votre Email" />
                                 <small>Vous ne recevrez pas de publicité.</small>
                             </div>
@@ -384,7 +335,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="contact-form">
-                                <label for="">Sélectionnez le service</label>
+                                <label>Sélectionnez le service</label>
                                 <select>
                                 <option>Service client</option>
                                 <option>Service comptable</option>
@@ -397,7 +348,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="contact-form">
-                                <label for="">Votre message :</label>
+                                <label>Votre message :</label>
                                 <textarea id="message" cols="20" rows="2" class="contact-message"></textarea>
                                 <button class="btn btn-contact">Envoyez</button>
                             </div>
@@ -407,7 +358,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="map">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2727.4826435542477!2d4.738835414927731!3d46.87355277914291!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f2f825308a4645%3A0xd772613a9dbf91b9!2sCh%C3%A2teau%20Saint%20Michel!5e0!3m2!1sfr!2sfr!4v1604308966524!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2727.4826435542477!2d4.738835414927731!3d46.87355277914291!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f2f825308a4645%3A0xd772613a9dbf91b9!2sCh%C3%A2teau%20Saint%20Michel!5e0!3m2!1sfr!2sfr!4v1604308966524!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                     </div>
                 </div>
             </div>
@@ -424,19 +375,16 @@
                         <h5 class="mb-0">Restez connectez avec nous !</h5>
                     </div>
                     <div class="col-md-6 col-lg-7 text-center text-md-right">
-                        <a class="fb-ic">
+                        <a href="https://www.facebook.com/" class="fb-ic">
                             <i class="fab fa-facebook-f white-text mr-4"></i>
                         </a>
-                        <a class="tw-ic">
+                        <a href="https://www.twitter.com/" class="tw-ic">
                             <i class="fab fa-twitter white-text mr-4"></i>
                         </a>
-                        <a class="gplus-ic">
-                            <i class="fab fa-google-plus-g white-text mr-4"></i>
-                        </a>
-                        <a class="li-ic">
+                        <a href="https://fr.linkedin.com/" class="li-ic">
                             <i class="fab fa-linkedin-in white-text mr-4"></i>
                         </a>
-                        <a class="ins-ic">
+                        <a href="https://www.instagram.com/?hl=fr" class="ins-ic">
                             <i class="fab fa-instagram white-text"></i>
                         </a>
                     </div>  
@@ -450,22 +398,22 @@
                     <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>  
                 </div>
-                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 contact-lien">
                     <h6 class="text-uppercase font-weight-bold">Nos packs</h6>
                     <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-                        <p><a class="dark-grey-text" href="#!">Novice</a></p>
-                        <p><a class="dark-grey-text" href="#!">Amateur</a></p>
-                        <p><a class="dark-grey-text" href="#!">Confirmé</a></p>
-                        <p><a class="dark-grey-text" href="#!">Expert</a></p>
+                        <p><a class="dark-grey-text" href="#nosPacks">Novice</a></p>
+                        <p><a class="dark-grey-text" href="#nosPacks">Amateur</a></p>
+                        <p><a class="dark-grey-text" href="#nosPacks">Confirmé</a></p>
+                        <p><a class="dark-grey-text" href="#nosPacks">Expert</a></p>
                 </div>  
-                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 contact-lien">
                     <h6 class="text-uppercase font-weight-bold">Familles des vins</h6>
                     <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-                        <p><a class="dark-grey-text" href="#!">Le blanc</a></p>
-                        <p><a class="dark-grey-text" href="#!">Le rouge</a></p>
-                        <p><a class="dark-grey-text" href="#!">Le champagne</a></p>
+                        <p><a class="dark-grey-text" href="vinsblancs.html">Le blanc</a></p>
+                        <p><a class="dark-grey-text" href="vinsrouges.html">Le rouge</a></p>
+                        <p><a class="dark-grey-text" href="champagne.html">Le champagne</a></p>
                 </div>
-                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 footer-contact">
                     <h6 class="text-uppercase font-weight-bold">Contact</h6>
                     <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
                         <p><i class="fas fa-home mr-3"></i> 15 Rue Saint-Laurent, 71150 Rully</p>
@@ -476,7 +424,7 @@
             </div>
         </div>
         <div class="footer-copyright text-center text-black-50 py-3">© 2020 Copyright:
-            <a class="dark-grey-text" href="google.com"> vinaudio.com</a>
+            <a class="dark-grey-text" href="https://dutss.github.io/VINAUDIO/"> vinaudio.com</a>
         </div>
     </footer>
     <!-- SCRIPT
