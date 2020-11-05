@@ -30,7 +30,7 @@ h1, h2, h3, h4 {
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 300;
-    word-spacing: 6px;
+    word-spacing: 5px;
 }
 
 h1 {
@@ -41,8 +41,8 @@ h2 {
     color: #5c5c3d;
     text-align: center;
     font-size: 175%;
-    margin-top: 40px;
-    margin-bottom: 30px;
+    margin-top: 35px;
+    margin-bottom: 25px;
 }
 
 h2:after {
@@ -58,13 +58,16 @@ h2:after {
 h3 {
     font-size: larger;
 }
+
 h3 img {
     width: 50%;
     height: 50%;
 }
+
 h4 {
     word-spacing: 2px;
 }
+
 p {
     font-size: x-small;
     font-weight: 300;
@@ -74,13 +77,10 @@ p {
 h6 {
     color: black;
 }
+
 section {
-    padding: 20px 0 35px 0;
+    padding: 5px 0 15px 0;
 }
-
-
-
-
 
 /* HEADER
 ================================*/
@@ -125,6 +125,7 @@ header {
     color: #fff;
 
 }
+
 .btn-full {
     background-color: darkolivegreen;
     border: 2px outset darkolivegreen;
@@ -149,7 +150,32 @@ header {
     color: #fff;
 }
 
-/* NOS PRODUITS
+.btn-abo {
+    background-color: #cc9900;
+    border: 2px solid darkolivegreen;
+    color: #fff;
+}
+
+.btn-novice {
+    background-color: darkolivegreen;
+    border: 2px solid white;
+}
+
+.btn-amateur {
+    background-color: rgb(104, 139, 43);
+    border: 2px solid white;
+}
+
+.btn-confirme {
+    background-color: rgb(146,194,63);
+}
+
+.btn-expert {
+    background-color: #fff;
+    color: black;
+}
+
+/* CAROUSEL
 ================================*/
 
 .carousel {
@@ -165,15 +191,20 @@ header {
     left: 15%;
     z-index: 10;
     padding-top: 5px;
-    padding-bottom: 50px;
     color: rgb(253, 253, 201);
     text-align: center;
     text-shadow: rgb(109, 0, 0) 1px 0 10px;
 }
+
 .carousel-cite p {
     justify-content: center;
+    text-align: center;
+    margin-bottom: 0;
+    font-size: medium;
+    color: black;
     padding-bottom: 10px;
 }
+
 .carousel-slide {
     margin: 5px 0 50px 0;
 }
@@ -183,6 +214,9 @@ header {
     height: 600px;
 }
 
+.carousel a {
+    text-decoration: none;
+}
 
 
 /* FAMILLES VINS
@@ -193,7 +227,7 @@ header {
 }
 
 .famille-details {
-    background-color: #b5ff90;
+    background-color: #99ff99;
     padding: 40px 30px;
     border-radius: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -273,7 +307,6 @@ cite img {
     font-size: 150%;
 }
 
-
 .abo-title {
     padding: 10px 10px 0 10px;
     border-bottom: 1px solid grey;
@@ -294,7 +327,6 @@ cite img {
     line-height: 35px;
 }
 
-
 .abo-content ul li i {
     font-size: 90%;
     margin-right: 10px;
@@ -304,38 +336,22 @@ cite img {
     text-align: center;
 }
 
-.btn-abo {
-    background-color: #cc9900;
-    border: 2px solid darkolivegreen;
-    color: #fff;
-}
-.btn-novice {
-    background-color: darkolivegreen;
-    border: 2px solid white;
-}
-.btn-amateur {
-    background-color: rgb(104, 139, 43);
-    border: 2px solid white;
-}
-.btn-confirme {
-    background-color: rgb(146,194,63);
-}
-.btn-expert {
-    background-color: #fff;
-    color: black;
-}
 .novice {
     background-color: #fff;
 }
+
 .amateur {
     background-color: rgb(146,194,63);
 }
+
 .confirme {
     background-color: rgb(104, 139, 43);
 }
+
 .expert {
     background-color: darkolivegreen;
 }
+
 .novice h3 {
     color: black;
 }
@@ -350,12 +366,14 @@ cite img {
 .contact-message {
     width: 100%;
 }
+
 .map {
     position: relative;
     padding-bottom: 75%;
     height: 0;
     overflow: hidden;
 }
+
 .map iframe{
     position: absolute;
     top: 0;
@@ -375,9 +393,11 @@ cite img {
 .contact-lien a {
     text-decoration: underline darkolivegreen 2px;
     font-size: larger;
-    padding-bottom: 15px 0 15px 0;
     color: black;
-    margin: auto;
+}
+
+.contact-lien p {
+    margin: 15px 0 15px 0;
 }
 
 /* FOOTER
@@ -385,8 +405,7 @@ cite img {
 
 footer {
     color: #fff;
-    height: 60px;
-    padding: 20px;
+    height: 70px;
 }
 
 footer p {
@@ -397,6 +416,12 @@ footer a {
     text-decoration: none;
 }
 
+.bitcoin{
+    color: orange;
+}
+.ethereum {
+    color: gray;
+}
 
 /* Page annexe
 ==========================================================================================
@@ -416,34 +441,94 @@ footer a {
 
 .bouteilles {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-    align-content: center;
-    padding-top: 20px;
-    text-align: center;
+    padding-top: 40px;
     transform: 2s ;
 }
+
+.bouteilles h3 {
+    text-align: left;
+}
+
 .bouteilles-produits h4 {
+    font-size: large;
+    text-align: center;
+}
+
+.bouteilles-produits {
+    text-align: center;
+    align-content: center;
     font-size: larger;
 }
 
+.bouteilles-produits:hover {
+    transform: scale(1.1);
+    border: solid black 2px;
+}
 
-.bouteilles img {
+.bouteilles-produits img {
+    border: inset rgb(255, 219, 119) 6px;
     width: 100px;
     height: 120px;
     margin-bottom: 20px;
 }
 
-.bouteilles-produits:hover {
-    transform: scale(1.2);
-    border: solid black 2px;
-}
-
-.bouteilles-produits img {
-    border: inset darkolivegreen 6px;
-}
-
 .bouteilles ul li {
-    list-style: upper-roman;
+    list-style: "-";
     color: black;
-    padding: -5px;
-    margin-left: 45px;
+}
+
+.bouteilles ul {
+    padding-left: 10px;
+}
+
+.photos-fabrication img {
+    width: 220px;
+    height: 110px;
+    border-radius: 25% 10%;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.4);
+    border: thick double rgb(250, 250, 250);
+}
+
+.photos-fabrication:hover {
+    transform: scale(1.5);
+}
+
+.cepages p::first-letter {
+        font-size: 25px;
+        color: #640000;
+        float: left;
+        margin-right: 2px;
+        text-align: justify;
+}
+
+/* QUI SOMMES NOUS ?
+================================*/
+
+.quisommesnous h2 {
+    margin-top: 90px;
+}
+
+.quisommesnous-texte {
+    background-image: url(../Images/fondtexte.png);
+    background-repeat: no-repeat;
+    background-size: 600px 570px;
+    background-position: center;
+    align-content: center;
+    text-align: center;
+}
+
+.quisommesnous-texte p {
+    padding: 0px 65px 0 65px;
+    color: black;
+}
+
+.quisommesnous-texte h4 {
+    text-decoration: double black;
+    padding-top: 30px;
+}
+
+.histoire img {
+    width: 590px;
+    height: 300px;
+    padding: 10px 0 10px 0;
 }
