@@ -151,7 +151,6 @@ header {
 }
 
 .btn-abo {
-    background-color: #cc9900;
     border: 2px solid darkolivegreen;
     color: #fff;
 }
@@ -175,11 +174,11 @@ header {
     color: black;
 }
 
-/* CAROUSEL
+/* QUI SOMMES NOUS ? - CAROUSEL
 ================================*/
 
 .carousel {
-    background-color: #ffcc66;
+    background-color: #fadcac;
 }
 
 .carousel-cite {
@@ -256,14 +255,13 @@ cite img {
     margin-right: 10px;
 }
 
-/* NOS PACKS
+/* NOS WINEBOX
 ================================*/
 
 .abo {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
     margin-bottom: 40px;
-    background-color: coral;
 }
 
 .abo h3 {
@@ -309,26 +307,30 @@ cite img {
 }
 
 .amateur {
-    background-color: rgb(146,194,63);
+    background-color: #d9ffb3;
 }
 
 .confirme {
-    background-color: rgb(104, 139, 43);
+    background-color: #b3ff66;
 }
 
 .expert {
-    background-color: darkolivegreen;
+    background-color: #a6ff4d;
 }
 
 .novice h3 {
     color: black;
 }
 
-/* CONTACT
+/* PAGE CONTACT
 ================================*/
 
 .contact-form {
     margin-bottom: -10px;
+}
+
+.contact-form label {
+    color: #fff;
 }
 
 .contact-message {
@@ -494,7 +496,7 @@ footer a {
         text-align: justify;
 }
 
-/* QUI SOMMES NOUS ?
+/* PAGE QUI SOMMES NOUS ?
 ================================*/
 
 .quisommesnous h2 {
@@ -527,19 +529,20 @@ footer a {
 }
 
 
-/* FAMILLE DES VINS
+/* PAGE FAMILLE DES VINS
 ================================*/
 
 .famille-vin {
-    background-color: #ffff97;
+    background-color: #fadcac;
 }
 
 .famille-details {
-    background-color: #99ff99;
-    padding: 40px 30px;
+    background-color: #197163;
+    padding: 5px 25px;
     border-radius: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     margin-bottom: 20px;
+    padding-top: 20px;
 }
 
 .famille-details img {
@@ -552,6 +555,8 @@ footer a {
 
 .famille-details h4 {
     text-align: center;
+    font-size: medium;
+    padding-top: 10px;
 }
 
 .famille-details a {
@@ -559,6 +564,12 @@ footer a {
     color: black;
 }
 
+.famille-details p {
+    font-size: small;
+    font-weight: 300;
+    color: #fff;
+
+}
 .famille-title {
     padding-top: 50px;
 }
@@ -576,4 +587,8 @@ footer a {
     font-size: medium;
     text-transform: uppercase;
     font-weight: bold;
+}
+
+.list-group-item {
+    background-color: #158467;
 }
