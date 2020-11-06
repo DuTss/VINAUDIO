@@ -14,7 +14,6 @@
 
 /*FONTS
     - Default
-
 */
 
 /* GLOBAL
@@ -525,8 +524,21 @@ footer a {
 .histoire img {
     width: 590px;
     height: 300px;
-    padding: 10px 0 10px 0;
+    padding: 15px 15px;
+    border: inset #facdac 15px;
 }
+
+.facade img {
+    padding: 5px;
+    margin: 10px 10px;
+}
+
+.cuve img {
+    padding: 5px;
+    margin: 10px 10px;
+}
+
+
 
 
 /* PAGE FAMILLE DES VINS
@@ -592,3 +604,4 @@ footer a {
 .list-group-item {
     background-color: #158467;
 }
+
