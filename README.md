@@ -1,6 +1,6 @@
 # VINAUDIO
 
-Second projet développez en HTML/CSS
+Second projet développé en HTML/CSS
 
 Site vitrine pour un domaine viticole
 
