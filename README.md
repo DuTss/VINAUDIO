@@ -1,7 +1,7 @@
 # VINAUDIO
 
-Site vitrine pour un domaine viticole
+Second projet développez en HTML/CSS
 
-HTML/CSS
+Site vitrine pour un domaine viticole
 
 https://dutss.github.io/VINAUDIO/
